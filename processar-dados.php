@@ -15,7 +15,6 @@ $data_atual = date('Y-m-d H:i:s');
 
 $server = 'localhost';
 $username = 'root';
-$clientes = 'clientes';
 $password = '';
 $database = 'clientes';
 
