@@ -1,25 +1,12 @@
 <?php
 
-// pegando os dados que esnatao vindo do formulario
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$telefone = $_POST['telefone'];
-$data = $_POST['data-nascimento'];
-$endereco = $_POST['endereco'];
-$complemento = $_POST['complemento'];
-$cep = $_POST['cep'];
-$bairro = $_POST['bairro'];
-$cidade = $_POST['cidade'];
-$estado = $_POST['estado'];
-$data_atual = date('Y-m-d H:i:s');
-
 $server = 'localhost';
 $username = 'root';
 $password = '';
 $database = 'clientes';
 
 
-$conn = new mysqli('$server', '$username', '$password', '$clientes');
+$conn = new mysqli('$dbHost', '$username', '$password', '$clientes');
 
 // Verifica se a conexão foi bem-sucedida
 
